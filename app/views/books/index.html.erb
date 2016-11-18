@@ -1,0 +1,7 @@
+<p> Welcome to books</p>
+
+<% @books.each do |book| %>
+	<%= book.name %>
+<% end %>
+
+<%= link_to "New book", new_book_path %>
